@@ -1,129 +1,21 @@
 <html></html>
 <head><title> User interface</title>
-
-<style>
-    body{
-        margin-top: 40px;     
-    }
-/* .outerdiv{
-    
-    border: 1;
-    width: 800px;
-    height: 600;
-    border-radius: 2px;
-    background-color: aqua;
-    opacity:2px;
-}*/
-.top-inner{
-    width: 400px;
-    height:560px;
-    background-color: rgb(110, 110, 245);
-
-}
-.top-inner2{
-    width: 400px;
-    height:560px;
-    background-color:rgb(158, 203, 243);
-    margin-top: -560px;
-    margin-left:400px;
-    opacity:0.4;
-
-}
-.bottom1{width: 400px;
-         height:50px;
-        background-color:  rgb(110, 110, 245);
-        margin-top: 500;
-
-}
-.bottom2{width: 400px;
-         height:50px;
-        background-color:rgb(240, 233, 233);
-        margin-top: -50px;
-        margin-left:400px;
-        
-        
-    }
-    /*.between1{
-        width: 400;
-        height: 300px;
-        background-color: black;
-        margin-top: -400px;
-        margin-left: 40px;}
-
-
-    .between1{
-        width: 400;
-        height: 300px;
-        background-color: black;
-        margin-left: 40px;}*/
-    .containerbetween{
-        width: 710px;
-        height: 450px ;
-        background-color:white;
-        margin-left: 40px;
-        margin-top:-505px;
-        opacity: 0.9;
-        border-radius: 20px;;
-        
-    }
- .cicle {
-  height: 250px;
-  width: 250px;
-  background-color:blue;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top:100px;
-  margin-left:40px ;
-
-}
-
-.div-in-cicle{
-    width: 250px;
-    height: 210px;
-    background-color:white;
-    margin-top: 22px;
-    box-shadow: 5px 10px 20px rgb(172, 158, 158);
-    opacity:0px;
-}
-.div-in-cicle2{
-    width: 250px;
-    height: 400px;
-    background-color:rgb(128, 153, 238);
-    margin-left: 400px;
-    margin-top: -330px;
-    text-align: right;
-    opacity: 0.5;
-    border-radius: 2px;
-   
-
-}
-input{
-
-    margin-left: 20px;
-    border: none;
-    height:  25px;
-    border-radius: 3px;
-    
-}
-button{
-    background-color: #0a40f1;
-    width: 200px;
-    text-align: center;
-    padding: left 60px;
-    border-radius: 5px;
-    color: white;
-}
-
-</style>
+    <link rel="stylesheet" href="UI.css">
 </head>
 <body>
 
-        <div class="top-inner">"   "</div>
-        <div class="top-inner2">"  "</div>
+        <div class="top-inner"></div>
+        <div class="top-inner2"></div>
         <div class="containerbetween">
             <span class="cicle">
-                <div class="div-in-cicle">
+                <div class="div-in-cicle"> 
+                <div class="outer"> 
+                    <div class="inner"><div id="number">23</div></div>
                 </div>
+                <div class="inner-right"> Total<br>
+                1,240</div>
+                <div class="inner-right2"> $2500</div>
+            </div>
             </span>
             <div class="div-in-cicle2"><center>
                <b > Create Your Account</b><br><br>
