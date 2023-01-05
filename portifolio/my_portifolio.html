@@ -24,9 +24,11 @@
         height: 600px;
         border: 1px;
         background-color: white;
-        margin-top: 60px;
+        margin-top: 15px;
         position: fixed;
         margin-left: 70px;
+        scroll-behavior: auto;
+        
         
         }
         .inner-right{
@@ -116,18 +118,33 @@
            .text{
             width: 300px;
             height: 50px;
-            background-color:#E85D04
+            background-color:#E85D04;
             margin-left:-100px;
-            color: white;
+            color:white ;
             padding: 10px;
-            display:inline-flex;
-            
+           }
+           li {
+            display: inline;
+            padding: 3px 0px 10px 100px;
+            margin-top: -30px;
+            font-size: 20px;
+            color: white;
+           }
+            a,li{
+            text-decoration: none;
            }
 </style>
 </head>
-<body><center>
-
-    <div class="outer">
+<body><center><nav>
+        <ul>
+      <a href="#">  <li>Home</li></a>
+       <a href="#"> <li>About us</li></a>
+       <a href="#"> <li> contact us</li></a>
+       <a href="#">  <li>login</li></a>
+       <a href="#"> <li></li></a>
+       
+    </ul>
+    </nav>
          <div class="inner"> 
     
             <div class="inner-right"><div class="text"><b> WELCOME TO OUR <br>WEBSTIT<br>Design</div>
